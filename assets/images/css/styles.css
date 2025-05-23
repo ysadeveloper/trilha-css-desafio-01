@@ -2,6 +2,7 @@
 
 body {
   background-color: black;
+  -webkit-background-clip: text;
 }
 
 h2 {
@@ -41,10 +42,11 @@ section {
   font-size: 2.5rem;
   font-weight: 900;
   text-transform: uppercase;
-  color: transparent;
-  background: -webkit-linear-gradient(#33A8DB, #1472B7);
-  background-clip: text;
+  background: linear-gradient(to right, #33A8DB, #1472B7);
   -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+   color: transparent;
 }
 
 .banner p {
